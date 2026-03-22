@@ -23,7 +23,7 @@ A simple Information gathering checklist for penetration testers
 
 ======================================
 
-# [2] User infromation Gathering
+**[2] User infromation Gathering**
 
 - Employee's personal information such as:
 	- Phone number's, Adresse's, CV, Opinion's, Responsiblitie's, Project's.
@@ -35,7 +35,7 @@ A simple Information gathering checklist for penetration testers
 
 ======================================
 
-# [3] Search Engines:
+**[3] Search Engines:**
 
 - google Hacking Data Base (GHDB)
 - The common operator's (AND, OR, +, -, "")
@@ -48,7 +48,7 @@ A simple Information gathering checklist for penetration testers
 
 ======================================
 
-# [4] Whois Enumeration:
+**[4] Whois Enumeration:**
 
 * Used for querying an official domain registrar's database, in order to determine
 * The owner of a domain name
