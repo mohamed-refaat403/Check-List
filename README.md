@@ -128,7 +128,7 @@ A simple Information gathering checklist for penetration testers created with (O
 
 # [B] Active RECON 
 
-[1] DNS Enumeration:
+**[1] DNS Enumeration:**
 
 * What is DNS?
 
@@ -149,14 +149,14 @@ A simple Information gathering checklist for penetration testers created with (O
 		* A domain can contain multiple MX revord's.
 
 - Forward lookup Brute Force:
-	- Host -r A <domain name>
+	- Host -r A (domain name)
 
 - Reverse Lookup Brute Force:
-	- host -t PTR <ip>
+	- host -t PTR (ip)
 
 - DNS Zone Transfer's:
 	- Full dump of the zone file's.
-	- host -l <domain name> <dns server address>
+	- host -l (domain name) (dns server address)
 
 - Automate:
 	- dnsrecon (tool)
@@ -164,17 +164,17 @@ A simple Information gathering checklist for penetration testers created with (O
 
 ======================================
 
-[2] Port Scaning:
+**[2] Port Scaning:**
 
 - Tcp Scanning:
-	- nc -nvv -w 1 -z <target ip> <ip range>
+	- nc -nvv -w 1 -z (target ip) (ip range)
 
 - Udp Scanning:
-	- nc -nvv -u -w 1 -z <target ip> <ip range>
+	- nc -nvv -u -w 1 -z (target ip) (ip range)
 
 ======================================
 
-[3] Nmap:
+**[3] Nmap:**
 
 * Accountability for our Traffic's
 
@@ -183,24 +183,24 @@ A simple Information gathering checklist for penetration testers created with (O
 - Stealth scan
 
 - Network Sweeping:
-	* nmap -sn <range-254> -V
+	* nmap -sn (range-254) -V
 
 - OS Fingerprinting:
-	* sudo nmap -O <host>
+	* sudo nmap -O (host)
 	* the "ttl" from ICMP ping refers for the OS type
 
 - Banner Grabbing/ Service Enumeration:
-	* sudo nmap <host> -sV #service vertion
+	* sudo nmap (host) -sV #service vertion
 
 - Nmap Scripting Engien's (NSE)
 
 ======================================
 
-[4] Masscan
+**[4] Masscan**
 
 ======================================
 
-[5] SMB Enumeration:
+**[5] SMB Enumeration:**
  
 - Scanning for the NetBIOS & SMB Service:
 	- nbtscan (tool)
@@ -211,7 +211,7 @@ A simple Information gathering checklist for penetration testers created with (O
 
 ======================================
 
-[6] NFS Enumeration:
+**[6] NFS Enumeration:**
 
 - Nmap NFS NSE Script's
 - rpcinfo (tool) + showmount (tool)
@@ -222,7 +222,7 @@ A simple Information gathering checklist for penetration testers created with (O
 
 ======================================
 
-[8] SNMP Enumeration:
+**[8] SNMP Enumeration:**
 
 * Check the MID & OID before diving into SNMP enum
 
