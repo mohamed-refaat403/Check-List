@@ -64,7 +64,6 @@ A simple Information gathering checklist for penetration testers
 - viewdns.info
 
 * Classless Inter-Domain Routing (CIDR)
--هو range ال ip's اللي بتاخده الشركة من ال ISP
 	- Ex: 163.114.128.0/24
 	
 * An Autonomous System Number (ASN)
