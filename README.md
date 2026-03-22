@@ -1,5 +1,5 @@
 # Check-List
-A simple Information gathering checklist for penetration testers
+A simple Information gathering checklist for penetration testers created with (Obsidian) software
 
 # [A] PASSIVE RECON
 
