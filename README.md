@@ -38,7 +38,7 @@ A simple Information gathering checklist for penetration testers created with (O
 **[3] Search Engines:**
 
 - google Hacking Data Base (GHDB)
-- The common operator's (AND, OR, +, -, "")
+- The common operator's (AND, OR, +, -, " ")
 
 * You can try to search with website signature in google dorc's
 
